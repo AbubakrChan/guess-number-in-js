@@ -8,7 +8,7 @@ while(totalguess > guessattempt){
   const guessed_number = prompt('Enter the number :');
   if(number_to_be_guessed==guessed_number){
     console.log('you have won the game in ', guessattempt , ' attempts!!')
-    console.log('you score is :', ((totalguess - guessattempt )*10) + 10);
+    console.log('you score is:', ((totalguess - guessattempt )*10) + 10);
     return;
     
   }
